@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Ejercio1 {
+
+        public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     double velocicdad, resultado;
+     System.out.println("Introduce la velocidad en km/h: ");
+     velocicdad = sc.nextDouble();
+     resultado = (velocicdad*1000)/3600;
+     System.out.println(velocicdad+"km/h es igual a "+resultado+" m/s");
+     
+    }    
+}
